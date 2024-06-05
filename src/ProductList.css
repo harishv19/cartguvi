@@ -1,0 +1,35 @@
+/* src/ProductList.css */
+.product-list {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .product-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-item img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .product-details {
+    margin-bottom: 20px;
+  }
+  
+  .product-details h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .product-price {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
